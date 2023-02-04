@@ -1,0 +1,81 @@
+#navigation{
+    background: #374b56;
+    height: 70px;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
+    justify-content: center;
+    /* Para hacer que las imagenes no se superpongan al navbar */
+    z-index: 999;
+    /* border-bottom: 1px solid #ffdc00; */
+    /* Para dejar el navbar estático */
+    position: fixed;  /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    font-family: 'Poppins','Open Sans', sans-serif;
+}
+
+#navigation a{
+    float: left;
+    margin-right: 40px;
+    /* Para que no aparezca como que está subrayado [Hipervínculo] */
+    text-decoration: none;
+    color: #fff;
+}
+
+#tabs{
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+ul{
+    /* Ampliamos el tamaño del ul */
+    width: 65%;
+}
+
+/* Animacion del logo */
+.logoNavbar{
+    vertical-align:middle;
+    position: relative;
+    width: 58px;
+    outline: 2.5px solid transparent;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+.logoNavbar:hover {
+    outline: 3px solid #ffc800;
+    outline-offset: 3px;
+    opacity: 0.6;
+}
+
+#home:hover, #shop:hover, #about:hover, #contact:hover {
+    color: #ffc800;
+}
+
+
+/* -----------carrito de la compra + login----------- */
+.lupa, .carrito, .login{
+    width: 40px;
+    height: 20px;
+    color: #fff;
+}
+#parteDcha{
+    /* Centramos verticalmente los elementos */
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    /* Alineamos a la derecha */
+    float: right;
+}
+#carritobutton, #loginbutton{
+    background-color: transparent;
+    border: none;
+}
+.carrito:hover, .login:hover{
+    color: #ffc800;
+}
+
+
+/* -----------animación de búsqueda----------- */

@@ -1,0 +1,31 @@
+#error{
+  /* Para alinear la imagen al centro de la pantalla */
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+#error {
+  width: auto;
+  height: 800px;
+}
+
+.notFound{
+  vertical-align:middle;
+  width: 700px !important;
+  height: 700px !important;
+
+  vertical-align:middle;
+  position: relative;
+  width: 55px;
+  outline: 2.5px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 50%;
+}
+
+.notFound:hover {
+  outline: 3px solid #ffc800;
+  outline-offset: 2px;
+  opacity: 0.6;
+}

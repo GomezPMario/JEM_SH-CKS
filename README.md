@@ -1,5 +1,5 @@
 # JEM SHÖCKS
-Final group project for the subject Lenguages and Standards on the web of my software engeneering degree
+Final group project for the subject Lenguages and Standards on the web of my software engeneering degree. Grade: 10/10
 
 URL: https://jem-shocks-lw.web.app/
 

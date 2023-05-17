@@ -259,6 +259,7 @@
     padding: 100px 0px;
     background-color: #f8f8f8;
     column-count: 2;
+    display: flex;
 }
 
 #ProductoMes{
